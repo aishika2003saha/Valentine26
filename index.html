@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unlock My Heart ❤️</title>
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <audio id="bgMusic" autoplay loop>
+        <source src="Bawra Mann Violin Cover.mp3" type="audio/mpeg">
+    </audio>
+
+<!-- PASSWORD PAGE -->
+<div id="passwordPage" class="box">
+
+  <h2>🔐 Unlock My Heart</h2>
+
+  <p>Enter the password, love 💗</p>
+
+  <input type="text" id="password" placeholder="Hint: anniversary  😉">
+
+  <br><br>
+
+  <button onclick="check()">Unlock ❤️</button>
+
+  <p id="message"></p>
+
+</div>
+
+
+<!-- MAIN VALENTINE PAGE -->
+<div id="mainPage" class="box hidden">
+
+  <h1>💖 You Unlocked My Heart 💖</h1>
+
+  <p>You are my favorite person.</p>
+  <p>My safe place.</p>
+  <p>My forever. 🥹💞</p>
+
+  <h2>Will you be my Valentine? 💝</h2>
+
+  <div class="buttons">
+
+    <button class="yes" onclick="showYes()">YES 😘</button>
+
+    <button class="no" onclick="showNo()">NO 😢</button>
+
+  </div>
+
+</div>
+
+
+<!-- YES PAGE -->
+<div id="yesPage" class="box hidden">
+
+  <h1>🥹❤️ YAYYY ❤️🥹</h1>
+
+  <p>You just made me the happiest girl alive.</p>
+
+  <h2>I Love You More 💖</h2>
+
+</div>
+
+
+<!-- NO PAGE -->
+<div id="noPage" class="box hidden">
+
+  <h2>💔 Please Read This…</h2>
+
+  <p class="long-text">
+
+    I know I have always been an unqualified girlfriend for you, because you have everything in your life: better friends, the most handsome face, best hair, you're brilliant, you are correctly decisive, you know what to do at the correct time, you have great sense of humor, and many other great things.
+
+    <br><br>
+
+    On the other hand, I only have you…
+
+    <br><br>
+
+    Of course I can't force you to be mine, but I can beg you.
+
+    <br><br>
+
+    So as you clicked "No", here your present girlfriend is begging you to give her another chance, so that next time without a second thought you will click "Yes".
+
+    <br><br>
+
+    I will be the good girlfriend. I promise. 🥹❤️
+
+    <br><br>
+
+    By clicking "Yes", you can confirm my existence… 💞
+
+  </p>
+
+  <div class="buttons">
+
+    <button class="yes" onclick="showYes()">YES 💖</button>
+
+    <button class="back" onclick="goBack()">Go Back 🔙</button>
+
+  </div>
+
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
